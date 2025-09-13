@@ -1,0 +1,98 @@
+
+# 🎓 College Management System
+
+## 📌 Overview
+
+The **College Management System** is a Java-based application designed to manage student records efficiently.
+It provides essential operations like **Add, Search, Update, and Delete** student information, with an **Admin panel** and a dedicated **Search bar** for quick access.
+The system is connected to a **SQL database** to ensure data persistence and reliability.
+
+---
+
+## 🚀 Features
+
+✅ Add new student records
+✅ Search students by roll number, name, or city
+✅ Update existing student details
+✅ Delete student records
+✅ Admin panel for managing data securely
+✅ Search bar for quick and easy lookups
+✅ SQL database integration for storing and managing records
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Java
+* **Database:** MySQL 
+* **GUI:** Java Swing 
+* **Build Tool:** Maven 
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/college-management-system.git
+   cd college-management-system
+   ```
+
+2. **Configure the Database**
+
+   * Open MySQL and create a new database:
+
+     ```sql
+     CREATE DATABASE CollegeDB;
+     USE CollegeDB;
+     ```
+   * Create the `Students` table:
+
+     ```sql
+     CREATE TABLE Students (
+         RollNo INT PRIMARY KEY,
+         Name VARCHAR(100),
+         City VARCHAR(100)
+     );
+     ```
+
+3. **Insert Sample Data (Optional)**
+
+   ```sql
+   INSERT INTO Students VALUES (1, 'Alexa', 'Karachi');
+   ```
+
+4. **Update Database Config in Code**
+
+   * Open `Main.java` (or config file)
+   * Update your connection string:
+
+     ```java
+     String url = "jdbc:mysql://localhost:3306/CollegeDB";
+     String user = "root";
+     String password = "MyNewPassword123";
+     ```
+
+5. **Run the Project**
+
+   * If using Maven:
+
+     ```bash
+     mvn clean install
+     mvn exec:java
+     ```
+   * Or simply run from your IDE.
+
+---
+
+
+
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork this repo and submit pull requests for improvements!
+
+---
