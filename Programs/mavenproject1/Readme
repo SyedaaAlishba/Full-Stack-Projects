@@ -1,4 +1,3 @@
-
 # 🎓 College Management System
 
 ## 📌 Overview
@@ -24,9 +23,9 @@ The system is connected to a **SQL database** to ensure data persistence and rel
 ## 🛠️ Tech Stack
 
 * **Language:** Java
-* **Database:** MySQL 
-* **GUI:** Java Swing 
-* **Build Tool:** Maven 
+* **Database:** MySQL
+* **GUI:** Java Swing
+* **Build Tool:** Maven
 
 ---
 
@@ -34,10 +33,6 @@ The system is connected to a **SQL database** to ensure data persistence and rel
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/your-username/college-management-system.git
-   cd college-management-system
-   ```
 
 2. **Configure the Database**
 
@@ -86,13 +81,7 @@ The system is connected to a **SQL database** to ensure data persistence and rel
 
 ---
 
-
-
-
----
-
 ## 🤝 Contribution
 
 Feel free to fork this repo and submit pull requests for improvements!
 
----
